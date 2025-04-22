@@ -61,3 +61,22 @@ def simulate_with_input():
     print("\n--- Simulation End ---\n")
 
 simulate_with_input()
+
+
+
+
+#Output
+#Enter number of processes: 3
+
+#How many events for Process 1? 2
+#Enter event for Process 1: i
+#Enter event for Process 1: s 2
+
+#How many events for Process 2? 3
+#Enter event for Process 2: i
+#Enter event for Process 2: r 2
+#Enter event for Process 2: s 3
+
+#How many events for Process 3? 1
+#Enter event for Process 3: r 2
+
