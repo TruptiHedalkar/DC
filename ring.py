@@ -57,3 +57,14 @@ for p in processes:
     if p.id == starter_id:
         p.start_election()
         break
+
+
+
+
+#Output
+#Enter number of processes: 3
+#Enter the IDs of the processes:
+#1
+#2
+#3
+#Enter ID of process that starts the election: 1
