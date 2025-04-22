@@ -68,3 +68,17 @@ if procs[start_pid].request_resource(targets, start_pid):
     print("Deadlock confirmed.")
 else:
     print("No deadlock detected.")
+
+#Output
+#Enter number of processes: 3
+#Enter process ID: 1
+#Enter process ID: 2
+#Enter process ID: 3
+
+#Define 'waits-for' relationships.
+#Process 1 is waiting for (space-separated IDs, or press Enter if none): 2 3
+#Process 2 is waiting for (space-separated IDs, or press Enter if none): 3 1
+#Process 3 is waiting for (space-separated IDs, or press Enter if none): 1 2
+
+#Enter initiator process ID: 1
+#Enter process IDs this process is requesting resource from (space-separated): 2 3
