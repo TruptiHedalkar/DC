@@ -25,3 +25,8 @@ def parent_process():
 
 if __name__ == "__main__":
     parent_process()
+
+
+#Output
+#Enter your message: hello
+#Parent received: hello
